@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Food</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ff6347; /* Tomato */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ff6347; /* Tomato */
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            background-color: white;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #ff6347; /* Tomato */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .food-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Delicious Food</h1>
+    <p>Your ultimate guide to tasty recipes!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#recipes">Recipes</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Discover a world of flavors and culinary delights. From appetizers to desserts, we have it all!</p>
+    </section>
+    
+    <section id="recipes">
+        <h2>Our Favorite Recipes</h2>
+        <div>
+            <h3>Spaghetti Carbonara</h3>
+            <img src="https://via.placeholder.com/600x400.png?text=Spaghetti+Carbonara" alt="Spaghetti Carbonara" class="food-image">
+            <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper. It's simple, yet so delicious!</p>
+        </div>
+        <div>
+            <h3>Chocolate Cake</h3>
+            <img src="https://via.placeholder.com/600x400.png?text=Chocolate+Cake" alt="Chocolate Cake" class="food-image">
+            <p>This rich and moist chocolate cake is perfect for any celebration. Top it with your favorite frosting!</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate food lovers who believe that good food brings people together. Join us in our culinary journey!</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Feel free to reach out to us via email: <a href="mailto:info@deliciousfood.com">info@deliciousfood.com</a>.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Delicious Food. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
