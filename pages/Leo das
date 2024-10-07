@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website about Vijay's Leo Das Character">
+  <title>Leo Das - Vijay</title>
+  
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      padding: 20px;
+      text-align: center;
+      color: #ecf0f1;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 0;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .subheading {
+      font-size: 24px;
+      margin-top: 5px;
+      color: #bdc3c7;
+    }
+
+    .content {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .bio {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #34495e;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 3px solid #3498db;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #2c3e50;
+      padding: 20px;
+      text-align: center;
+      color: #ecf0f1;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Leo Das - The Character Unleashed</h1>
+    <p class="subheading">A Glimpse into Vijay's Fierce Role in Leo</p>
+  </header>
+
+  <!-- Main Content Section -->
+  <div class="content">
+    <!-- Bio Section -->
+    <section class="bio">
+      <p>
+        Vijay's portrayal of Leo Das in the movie *Leo* is intense, raw, and filled with action. The character navigates through complex emotions, facing formidable adversaries while unveiling a darker side of justice. Leo Das stands out as one of Vijay’s most memorable roles, captivating audiences with his charisma, intensity, and sheer power.
+      </p>
+      <p>
+        The movie centers around the duality of good and evil, with Leo Das representing the epitome of fierce loyalty and unstoppable force. His journey is one filled with high-octane action, suspense, and moral dilemmas that keep viewers on the edge of their seats.
+      </p>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section class="gallery">
+      <!-- Web Images of Vijay as Leo Character -->
+      <img src="https://images.app.goo.gl/Q7o8fbWHFXsnW9ub9" alt="Vijay as Leo Das Scene 1">
+      <img src="https://images.app.goo.gl/ED7qkNATVko87nhk6" alt="Vijay as Leo Das Scene 2">
+      <img src="https://images.app.goo.gl/XX1b2yewyxrZqoQT9" alt="Vijay in Leo Movie Poster">
+      <img src="https://images.app.goo.gl/QThw2RLZoVfN9Qn89" alt="Vijay Action Scene as Leo">
+    </section>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Website about Leo Das © 2024 | Created with ❤️ for Vijay's fans</p>
+  </footer>
+
+</body>
+</html>
+
