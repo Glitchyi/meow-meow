@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villaden Gaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Villaden Gaming</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Villaden Gaming</h2>
+        <p>Welcome to my gaming channel! Join me for gameplay, reviews, and fun commentary on all things gaming.
+        discord id : @villainop#0
+        insta id : @nsk_nakul</p>
+    </section>
+
+    <section id="videos">
+        <h2>Latest Videos</h2>
+        <div class="video">
+            <h3>MY LATEST VIDEO  1</h3>
+            <iframe width="560" height="315" src="https://youtu.be/xAIlQMBG6yo?si=lYgxRSFF43YjdjTw" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <h3>FIRST VIDEO ON POKEMON UNITE 2</h3>
+            <iframe width="560" height="315" src="https://youtu.be/I3PTzcl2-vk?si=BAWsmvhJufnRg1QG" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!-- Add more videos as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or want to collaborate, feel free to reach out! </p>
+        <p>Email: <a href="mailto:villainandrogame@gmail.com">your-email@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Villaden Gaming. All rights reserved.</p>
+        <p><a href="https://www.youtube.com/@TheExplorian" target="_blank">Visit my YouTube Channel</a></p>
+    </footer>
+</body>
+</html>
