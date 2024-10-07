@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            font-size: 2rem;
+        }
+
+        .container {
+            margin: 2rem auto;
+            max-width: 1200px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .category-btn {
+            background-color: #007bff;
+            color: white;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .category-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .meme-gallery {
+            display: none;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 1rem;
+        }
+
+        .meme-gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .meme-container {
+            display: none;
+        }
+
+        .meme-container.active {
+            display: grid;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Meme Gallery
+</header>
+
+<div class="container">
+    <div class="categories">
+        <button class="category-btn" onclick="showCategory('funny')">Funny</button>
+        <button class="category-btn" onclick="showCategory('sports')">Sports</button>
+        <button class="category-btn" onclick="showCategory('movies')">Movies</button>
+        <button class="category-btn" onclick="showCategory('animals')">Animals</button>
+    </div>
+
+    <div id="funny" class="meme-container">
+        <div class="meme-gallery">
+            <img src="meme1.jpg" alt="Funny Meme 1">
+            <img src="meme2.jpg" alt="Funny Meme 2">
+            <img src="meme3.jpg" alt="Funny Meme 3">
+        </div>
+    </div>
+
+    <div id="sports" class="meme-container">
+        <div class="meme-gallery">
+            <img src="meme4.jpg" alt="Sports Meme 1">
+            <img src="meme5.jpg" alt="Sports Meme 2">
+            <img src="meme6.jpg" alt="Sports Meme 3">
+        </div>
+    </div>
+
+    <div id="movies" class="meme-container">
+        <div class="meme-gallery">
+            <img src="meme7.jpg" alt="Movies Meme 1">
+            <img src="meme8.jpg" alt="Movies Meme 2">
+            <img src="meme9.jpg" alt="Movies Meme 3">
+        </div>
+    </div>
+
+    <div id="animals" class="meme-container">
+        <div class="meme-gallery">
+            <img src="meme10.jpg" alt="Animals Meme 1">
+            <img src="meme11.jpg" alt="Animals Meme 2">
+            <img src="meme12.jpg" alt="Animals Meme 3">
+        </div>
+    </div>
+</div>
+
+<script>
+    function showCategory(category) {
+        var containers = document.getElementsByClassName('meme-container');
+        for (var i = 0; i < containers.length; i++) {
+            containers[i].classList.remove('active');
+        }
+
+        document.getElementById(category).classList.add('active');
+    }
+</script>
+
+</body>
+</html>
