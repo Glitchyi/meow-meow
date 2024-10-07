@@ -21,10 +21,22 @@
             padding: 20px;
             text-align: center;
         }
+        .car-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .car-gallery div {
+            margin: 20px;
+        }
         img {
-            width: 80%;
-            max-width: 800px;
+            width: 100%;
+            max-width: 400px;
             border-radius: 10px;
+            transition: transform 0.2s;
+        }
+        img:hover {
+            transform: scale(1.05);
         }
         h1 {
             color: #d90429;
@@ -55,6 +67,22 @@
     <img src="https://www.porsche.com/content/dam/porsche-nms/cars/911/2021/modelpage/911-modelpage-teaser-hero.jpg" alt="Porsche 911">
     <p>The Porsche 911 is a luxury high-performance sports car that blends timeless design with cutting-edge technology.</p>
     <p>With a rear-engine layout and unmistakable silhouette, the 911 is a symbol of prestige, speed, and engineering excellence.</p>
+</section>
+
+<section>
+    <h1>Explore Our Other Models</h1>
+    <div class="car-gallery">
+        <div>
+            <h2>Porsche Taycan</h2>
+            <img src="https://www.porsche.com/content/dam/porsche-nms/cars/taycan/2021/modelpage/taycan-modelpage-teaser-hero.jpg" alt="Porsche Taycan">
+            <p>Porsche’s first all-electric sports car, delivering instant acceleration.</p>
+        </div>
+        <div>
+            <h2>Porsche Cayenne</h2>
+            <img src="https://www.porsche.com/content/dam/porsche-nms/cars/cayenne/2021/modelpage/cayenne-modelpage-teaser-hero.jpg" alt="Porsche Cayenne">
+            <p>The powerful and versatile Porsche Cayenne, combining luxury with utility.</p>
+        </div>
+    </div>
 </section>
 
 <footer>
