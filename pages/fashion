@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple fashion website showcasing trends, styles, and tips.">
+    <title>Fashion Trends</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        #about {
+            background-color: #f2f2f2;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            margin: 10px;
+            width: 300px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Fashion Trends 2024</h1>
+        <p>Explore the latest trends in fashion and style.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Fashion</a>
+        <a href="#trends">Fashion Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Fashion Section -->
+    <section id="about">
+        <h2>About Fashion</h2>
+        <p>Fashion is more than just clothing – it's an expression of individuality and a reflection of culture and society. Stay updated on what's trending this season!</p>
+    </section>
+
+    <!-- Fashion Gallery Section -->
+    <section id="trends">
+        <h2>Latest Fashion Trends</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x400" alt="Trend 1">
+            <img src="https://via.placeholder.com/300x400" alt="Trend 2">
+            <img src="https://via.placeholder.com/300x400" alt="Trend 3">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <p>Connect with us on Social Media:</p>
+        <a href="#">Instagram</a> | 
+        <a href="#">Facebook</a> | 
+        <a href="#">Twitter</a>
+        <p>&copy; 2024 Fashion Trends. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
