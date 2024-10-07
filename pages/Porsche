@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche - Luxury Sports Cars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        img {
+            width: 80%;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #d90429;
+        }
+        p {
+            color: #555;
+            font-size: 1.2em;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Porsche - Excellence in Motion</h1>
+</header>
+
+<section>
+    <h1>The Porsche 911</h1>
+    <img src="https://www.porsche.com/content/dam/porsche-nms/cars/911/2021/modelpage/911-modelpage-teaser-hero.jpg" alt="Porsche 911">
+    <p>The Porsche 911 is a luxury high-performance sports car that blends timeless design with cutting-edge technology.</p>
+    <p>With a rear-engine layout and unmistakable silhouette, the 911 is a symbol of prestige, speed, and engineering excellence.</p>
+</section>
+
+<footer>
+    <p>© 2024 Porsche. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
